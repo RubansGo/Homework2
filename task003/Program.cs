@@ -2,7 +2,7 @@
 int Day = Convert.ToInt32(Console.ReadLine());
 if (Day >= 1 && Day <=7) {
 	if (Day >= 6) {
-		Console.Write("It's a holiday");
+		Console.Write("It's a Weekend");
 	} else {
 		Console.Write("Working day");
 	}
